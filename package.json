@@ -1,7 +1,7 @@
 {
-  "name": "typescript",
+  "name": "TypeScript Complete Tutorial - CodeOneDigest",
   "version": "1.0.0",
-  "description": "typescript introduction",
+  "description": "TypeScript Complete Tutorial - CodeOneDigest",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
