@@ -13,6 +13,7 @@ console.log(typeof tuppleArray);
 
 //now this will let us push another item in the tuple array
 tuppleArray.push("new item test in tuple");
+tuppleArray.push(45);
 console.log(tuppleArray);
 
 

@@ -1,4 +1,7 @@
 //Type unknown
+
+// unknown is a similar, but safer alternative to any.
+
 let unknownvar: unknown = "codeonedigest";
 console.log("value " + unknownvar);
 console.log ("typeof " + typeof unknownvar);
@@ -9,7 +12,7 @@ console.log ("typeof " + typeof unknownvar);
 
 
 let val: unknown; 
-console.log(val); 
+console.log(val);  //print undefined
 val = true; 
 console.log(val); 
 val = 7; 

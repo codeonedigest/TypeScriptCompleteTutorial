@@ -1,8 +1,9 @@
+//Typescript - Array
+//TypeScript has a specific syntax for typing arrays.
 var vararray = [];
 vararray.push("codeonedigest");
 console.log(vararray);
 vararray.push("Typescript Tutorial");
-console.log(vararray);
 console.log(vararray);
 var vararray2 = [];
 vararray2.push("codeonediges2");

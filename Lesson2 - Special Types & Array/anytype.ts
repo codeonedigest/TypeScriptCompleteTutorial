@@ -1,5 +1,8 @@
 
 //Type any
+
+// any is a type that disables type checking and effectively allows all types to be used.
+
 let anyvar: any = true;
 console.log("Value " + anyvar);
 console.log ("typeof " + typeof anyvar);

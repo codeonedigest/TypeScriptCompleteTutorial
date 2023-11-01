@@ -1,9 +1,13 @@
+//Typescript - Array
+
+//TypeScript has a specific syntax for typing arrays.
+
 const vararray: string[] = [];
 vararray.push("codeonedigest");
 console.log(vararray);
 vararray.push("Typescript Tutorial");
 console.log(vararray);
-console.log(vararray);
+ 
 
 
 let vararray2: string[] = [];
@@ -25,3 +29,4 @@ let readonlyArrayVar: readonly number[] = [1,2,3];
 console.log(readonlyArrayVar);
 //readonlyArrayVar.push(5); //push method is not available for readonly array.
 console.log(readonlyArrayVar);
+

@@ -8,3 +8,8 @@ console.log(typeof tuppleArray);
 //now this will let us push another item in the tuple array
 tuppleArray.push("new item test in tuple");
 console.log(tuppleArray);
+//To prevent from adding more items in typearray so make it readonly
+var readyonlyTuppleArray;
+readyonlyTuppleArray = [1, true, "type array test"];
+console.log(readyonlyTuppleArray);
+//readyonlyTuppleArray.push("new item test"); // this line shows compile error
