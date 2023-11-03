@@ -9,7 +9,7 @@ const car: {type: string, model: string, year: number} = {
     year: 2000
 }
 console.log(car.type + " | " + car.model + " | " + car.year);
-
+console.log(car);
 
 //Example-2 define object type and initialize with value
 
@@ -19,6 +19,7 @@ fruit = {
     taste: 'sweet'
 }
 console.log(fruit);
+//console.log(fruit.name);
 
 
 //Example-3 define object type with properties
@@ -32,6 +33,7 @@ animal = {
     strength: 'speed'
 };
 console.log(animal);
+console.log(animal.name);
 
 
 car.model='fortuner';

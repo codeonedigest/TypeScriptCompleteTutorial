@@ -27,3 +27,12 @@ console.log(car);
 //console.log(fruit.taste);
 animal.name = 'lion';
 console.log(animal);
+//Example-4 Optional properties
+var book;
+book = {
+    name: 'my book',
+    author: 'codeonedigest'
+};
+console.log(book);
+console.log(book.name);
+// We can also define object as interface and later we can initialize object of type interface. This we will see in upcoming videos

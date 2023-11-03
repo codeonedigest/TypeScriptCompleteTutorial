@@ -12,14 +12,16 @@ enum cardinalDirections {
     West
   }
 
-console.log(cardinalDirections);
-console.log(cardinalDirections.North);
+console.log(cardinalDirections); //whole enum
+console.log(cardinalDirections.North); //0
 
 let currentDirection = cardinalDirections.East;
-console.log(currentDirection);
+console.log(currentDirection); //1
 
 // throws error as 'North' is not a valid enum
 //currentDirection = 'North'; // Error: "North" is not assignable to type 'CardinalDirections'.
+currentDirection = cardinalDirections.West;
+console.log(currentDirection) //3
 
 
 //Example-2  You can set the value of the first numeric enum and have it auto increment from that:
