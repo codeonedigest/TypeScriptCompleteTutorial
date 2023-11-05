@@ -5,3 +5,7 @@ function printStatusCode(code) {
 }
 printStatusCode(404);
 printStatusCode("404 Resource Not Found ");
+//Union Type Errors
+/*function printStatusCode2(code: string | number) {
+    console.log(code.toUpperCase());
+}*/

@@ -9,19 +9,19 @@ interface car {
     milage: number
 }
 
-let myCar = {
+function printCar(carObject: car) {
+    console.log(carObject.name + " | " + carObject.model + " | " + carObject.milage); 
+    console.log(carObject); //object json
+    console.log(typeof carObject);  //object
+}
+
+let myCar: car = {
     name: "Maruti",
     model: "Brezza",
     milage: 20
 }
 
-function printCar(carObject: car) {
-    console.log(carObject.name + " | " + carObject.model + " | " + carObject.milage);
-    console.log(carObject);
-    console.log(typeof carObject);
-}
-
-printCar(myCar);
+printCar(myCar);  // calling the function with an instance of car.
 
 let myCarToyota: car = {
     name: "Totota",
@@ -29,24 +29,25 @@ let myCarToyota: car = {
     milage: 20
 }
 
-printCar(myCarToyota);
+printCar(myCarToyota); // print toyota car
 
 
 //Additional Properties
-let myCar2 = {
+let myCar2: car = {
     name: "Maruti",
     model: "Brezza",
     milage: 20,
-    year: 2000
+    //year: 2000
 }
 
 printCar(myCar2);
 
 
 //Optional Properties
-let myCarOptionalProperties1 = {
+let myCarOptionalProperties1: car = {
     name: "Maruti",
-    model: "Brezza"
+    model: "Brezza",
+    milage: 10
 }
 
 //printCar(myCarOptionalProperties); // Comilation Error
@@ -71,7 +72,7 @@ function printFruit(fruitObject: Fruit) {
     console.log(fruitObject);
 }
 
-let myFruitApple = {
+let myFruitApple: Fruit = {
     name: "Apple",
     taste: "Sweet"
 }
