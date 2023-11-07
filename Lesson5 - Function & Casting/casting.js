@@ -11,7 +11,3 @@ console.log(myVar.length); // prints undefined since numbers don't have a length
 var variableHello = "hello";
 console.log(variableHello);
 console.log(variableHello.length);
-//Exercise4 -Force casting To override type errors that TypeScript may throw when casting, first cast to unknown, then to the target type.
-var forceCastTest = "hello";
-console.log(forceCastTest);
-console.log(typeof forceCastTest);

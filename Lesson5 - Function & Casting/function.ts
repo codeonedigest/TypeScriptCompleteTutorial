@@ -56,7 +56,7 @@ console.log(nameParameterTest({a:20,b:5}));
 //Exercise7 - Rest Parameters - Rest parameters can be typed like normal parameters, but the type must be an array as rest parameters are always arrays.
 
 function addRestParameter(a:number,b:number,...rest: number[]) {
-    return a + b + rest.length;
+    return a + b + rest.length; //22
 }
 
 console.log(addRestParameter(10,10,10,10));

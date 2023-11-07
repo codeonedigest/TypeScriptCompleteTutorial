@@ -47,6 +47,6 @@ function addRestParameter(a, b) {
     for (var _i = 2; _i < arguments.length; _i++) {
         rest[_i - 2] = arguments[_i];
     }
-    return a + b + rest.length;
+    return a + b + rest.length; //22
 }
 console.log(addRestParameter(10, 10, 10, 10));
