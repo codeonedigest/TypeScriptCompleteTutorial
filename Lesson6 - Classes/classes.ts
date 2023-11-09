@@ -136,5 +136,7 @@ class Pantagon extends Polygon {
     }
 }
 
+//const poly = new Polygon();
+
 const pantagon = new Pantagon(6);
 console.log(pantagon.getPerimeter()); //30
